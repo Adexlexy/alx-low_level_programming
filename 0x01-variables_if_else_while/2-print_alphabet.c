@@ -1,12 +1,9 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
-
 /**
- *main - Entry point to prints all the alphabets in lowercase.
- 
+ *main - Entry point
+ *Description - Print all alphabet
  *Return : Always 0
 */
 int main(void)
