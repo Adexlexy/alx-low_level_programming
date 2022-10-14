@@ -1,5 +1,4 @@
 #include <stdio>
-
 /**
  * main - Prints all possible combinations of two different digits,
  * in ascending order, sepearated by a coma followed by a space
@@ -24,6 +23,6 @@ int main(void)
 		}
 	}
 
-	putchar('\n');
+	putchar('\n')	
 	return (0);
 }

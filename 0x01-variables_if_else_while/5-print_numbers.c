@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main -Entry point for assigning a random number to the variable
  * and each time it is executed and print the last digit of the
