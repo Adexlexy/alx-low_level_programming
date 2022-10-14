@@ -1,8 +1,6 @@
 #include <studio.h>
 /**
- *main -Prints all possible combinations of two-digit numbers,
- *	ranging from 0-99, sepearted by a comma followed by a
- *	space
+ *main - Entry point
  *
  */
 int main(void)

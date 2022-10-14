@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point for Prints all single digit numbers of base 10
- *	starting from 0,using putchar and without char variable.
- *
+ *main- Entry point
  *Return: Always 0.
  */
 int main(void)
