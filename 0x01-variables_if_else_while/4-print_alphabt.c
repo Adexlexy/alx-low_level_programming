@@ -2,17 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point to print the alphabet in lowercase except
- * for q and e.
- *
+ * main - Entry point
  * Return: Always 0.
  */
 int main(void)
 {
-	char letter;
+	char low;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		if (letter == 'q' || letter == 'e')
+	for (low = 'a'; low <= 'z'; low++)
+		if (low == 'q' || low == 'e')
 			continue;
 				putchar(low);
 	putchar('\n');
