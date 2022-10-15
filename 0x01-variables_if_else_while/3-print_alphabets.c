@@ -3,21 +3,18 @@
 #include <time.h>
 
 /**
- *main - prints the alphabet in lowercase and after that
- *uppercase
- *return: Always 0.
+ * main -Entry point
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	char letter;
+	char low;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
-
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
 	putchar('\n');
-
 	return (0);
 }
