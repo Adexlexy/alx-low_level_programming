@@ -8,13 +8,15 @@
 int main(void)
 {
 
-	char alphabet{8} = "_putchar";
-	int j;
-
-	for (j = 0, j < 8, j++)
-		_putchar(alphabet[j]);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
 }
-
