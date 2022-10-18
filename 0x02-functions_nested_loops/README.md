@@ -1,1 +1,1 @@
-The readme for the alx 0x02-functions_nested_loops task which furthers more on loops in C
+readme in C
