@@ -5,7 +5,7 @@
  * Return: 1-if lowercase/uppercase,0-if not.
  */
 
-int_isalpha(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
