@@ -1,13 +1,16 @@
 #include "main.h"
-/* Betty doc
+/**
+ * print_alphabet - A function that prints the alphabet, in lowercasei
+ * followed by a new line
+ * Return: nothing
  */
 
 void print_alphabet(void)
 {
-	char Letter;	
+	char i;
 
-	for (letter + 'a'; letter <= 'z'; letter ++)
-		_putchar(letter);
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
 
 	_putchar('\n');
 }
