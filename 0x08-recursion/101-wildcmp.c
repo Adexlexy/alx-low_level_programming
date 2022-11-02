@@ -19,15 +19,16 @@ int str_checker(char *s1, char *s2, int i, int j)
 	if (s2[j] == '*')
 		return (str_checker(s1, s2, i + 1, j) || str_checker(s1, s2, i, j + 1));
 	return (0);
+}
 
 /**
  * wildcmp - check if strings could be considered identical
  * @s1: base address for string.
  * @s2: base address for string.
- *
- * Return: 1 if are considered identical
+ *ii
+ * Return: 1 if are considered iidentical
  */
-int wildcmp(char *s1, char *s2)
+int wildcmp(char *s1, char *s2)i
 {
 	return (str_checker(s1, s2, 0, 0));
 }
