@@ -26,10 +26,9 @@ int str_checker(char *s1, char *s2, int i, int j)
  * @s1: base address for string.
  * @s2: base address for string.
  *ii
- * Return: 1 if are considered iidentical
+ * Return: 1 if are considered identical
  */
-int wildcmp(char *s1, char *s2)i
+int wildcmp(char *s1, char *s2)
 {
 	return (str_checker(s1, s2, 0, 0));
 }
-
